@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  margin-top: 15px;
+}
+
+.header ul {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header ul li {
+  display: inline;
+  padding: 0 5px;
+}
+
+.header-link {
+  text-decoration: none;
+  vertical-align: middle;
+  font-size: 13px;
+  color: black;
+}
+
+#google-apps {
+  display: inline-block;
+  background-position: -132px -38px;
+  background-size: 528px 68px;
+  background-image: url(https://ssl.gstatic.com/gb/images/i2_2ec824b0.png);
+  height: 30px;
+  width: 30px;
+  opacity: .65;
+}
+
+#sign-in {
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin-right: 30px;
+  display: inline-block;
+  background-color: #4387fd;
+  border: 1px solid #4387fd;
+  border-radius: 2px;
+  height: 30px;
+  width: 69px;
+  line-height: 30px;
+}
+
+.hl-hover:hover {
+  text-decoration: underline;
+}
+
+#google-apps:hover {
+  opacity: 1;
+}
