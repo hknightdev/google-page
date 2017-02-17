@@ -1,6 +1,7 @@
 body {
   font-family: Arial, sans-serif;
 }
+
 .header {
   position: fixed;
   top: 0;
@@ -19,24 +20,24 @@ body {
 
 .header ul li {
   display: inline;
-  padding: 0 5px;
+  margin: 0 5px;
 }
 
 .header-link {
   text-decoration: none;
-  vertical-align: middle;
+  vertical-align: middle; /*aligns the text and links together*/
   font-size: 13px;
   color: black;
 }
 
 #google-apps {
   display: inline-block;
-  background-position: -132px -38px;
+  background-position: -132px -38px; /*position and size are used together to offset an image if you want to use it for multiple icons*/
   background-size: 528px 68px;
-  background-image: url(https://ssl.gstatic.com/gb/images/i2_2ec824b0.png);
+  background-image: url(https://ssl.gstatic.com/gb/images/i2_2ec824b0.png); /*sets the background image for a-link instead of using <img>*/
   height: 30px;
   width: 30px;
-  opacity: .65;
+  opacity: .65; /*opacity is in decimal instead of percentage*/
 }
 
 #sign-in {
@@ -51,7 +52,7 @@ body {
   border-radius: 2px;
   height: 30px;
   width: 69px;
-  line-height: 30px;
+  line-height: 30px; /*used to center text in block elements*/
 }
 
 .hl-hover:hover {
