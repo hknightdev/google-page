@@ -63,6 +63,12 @@ img {
   height: 25px;
 }
 
+.buttons input {
+  height: 35px;
+  background-color: #f2f2f2
+  border: 1px solid #f2f2f2;
+}
+
 .header ul {
   float: right;
   list-style-type: none;
