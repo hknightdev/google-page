@@ -2,6 +2,14 @@ body {
   font-family: Arial, sans-serif;
 }
 
+img {
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 92px;
+  width: 272px;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -11,11 +19,53 @@ body {
   margin-top: 15px;
 }
 
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+
+.footer-left {
+  float: left;
+  list-style-type: none;
+  margin-left: 15px;
+}
+
+.footer-right {
+  float: right;
+  list-style-type: none;
+  margin-right: 15px;
+}
+
+.footer ul li {
+  display: inline;
+  margin: 0 5px;
+  line-height: 40px;
+  margin: 0 10px;
+}
+
+.body {
+  position: relative;
+  margin: auto;
+  width: 400px;
+  top: 200px;
+}
+
+.search {
+  display: block;
+  position: relative;
+  margin: auto;
+  width: 350px;
+  height: 25px;
+}
+
 .header ul {
   float: right;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 .header ul li {
@@ -23,7 +73,7 @@ body {
   margin: 0 5px;
 }
 
-.header-link {
+.link {
   text-decoration: none;
   vertical-align: middle; /*aligns the text and links together*/
   font-size: 13px;
@@ -55,7 +105,7 @@ body {
   line-height: 30px; /*used to center text in block elements*/
 }
 
-.hl-hover:hover {
+.link-hover:hover {
   text-decoration: underline;
 }
 
